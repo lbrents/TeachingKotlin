@@ -18,8 +18,8 @@ The curly brackets tell Kotlin that everything in between is going to be code fo
 
 The actual code that we are running is the line `println("Hello, world!")`. Breaking this line up even further, we have a function called `println` (print line) that takes everything inside it's parentheses and *prints* it to the console.
 
-[!IMPORTANT]
-Something to remember is that if you want to print text to the console, all the text you want to print **must** be inside double quotes.
+> [!IMPORTANT]
+> Something to remember is that if you want to print text to the console, all the text you want to print **must** be inside double quotes.
 
 So now we know that if we want to print a message to the console, we have to call our `println` function and put our message in double quotes inside the function's parentheses.
 
