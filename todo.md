@@ -1,12 +1,5 @@
 
 topics to cover:
-    - main
-        - dont worry about details
-        + just the start point of programand
-    - printing
-        + differentiate between numbers and strings
-        + useful for debugging
-        ? string formatting ?
     - variables
         + variables vs constants
         + data types

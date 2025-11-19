@@ -16,8 +16,8 @@ Coding for a mobile device can be difficult at times, but is also very rewarding
 
 - Basics
     - [Creating A New Project](Sections/NewProject.md)
-    - [Printing]()
-    - [Variables]()
+    - [Printing](Sections/Printing.md)
+    - [Variables](Sections/Variables.md)
     - [Conditionals]()
     - [Loops]()
 - Advanced
