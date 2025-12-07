@@ -21,7 +21,7 @@ The actual code that we are running is the line `println("Hello, world!")`. Brea
 > [!IMPORTANT]
 > Something to remember is that if you want to print text to the console, all the text you want to print **must** be inside double quotes.
 
-So now we know that if we want to print a message to the console, we have to call our `println` function and put our message in double quotes inside the function's parentheses.
+So far, we have established that if we want to print a message to the console, we have to call our `println` function and put our message in double quotes inside the function's parentheses.
 
 Let's change the message in our program to whatever your heart desires and then run the program.
 
@@ -37,13 +37,13 @@ Copy and replace the current code inside our main function with the following co
 println(100)
 println(77 + 33)
 println(10 - 50)
-println(1000 * 42)
+println(1000 * -42)
 println(10 / 3)
 ```
 
 Kotlin will run each `println` function sequentially for us. You should also notice that Kotlin calculated the result of the math we put inside the function's parentheses. And it doesn't have to be just a calculation either. The first `println` is just the number 100 and that prints just fine as well.
 
-Lastly, one other thing you might notice is that 10 / 3 is not 3, but 3.333... repeating. For now, don't worry about why this happens because the variables section will explain properly (hopefully).
+Lastly, one other thing you might notice is that 10 / 3 is 3 while it should be 3.333... repeating. For now, don't worry about why this happens because the variables section will explain properly (hopefully).
 
 The main takeaway is that Kotlin can do math. Feel free to change the numbers and the operators to get a feel for how this works.
 
@@ -55,7 +55,7 @@ The last thing I would like to cover before moving on to the more fun stuff, is 
 
 Before we even get to the point of having to print stuff to the console to understand what is going on in our code, we can write comments to document how our code works and make it easier to read.
 
-So how do we put comments in our code? The answer is with double slashes `//`. In our code, everything past a pair of forward slashes will be considered a comment until the next line. If we want to write a comment that is going to span more than a couple lines, then we can use a forward slash followed by an asterisk `/*` to start a multi-line comment. To end a multi-line comment, we type an asterisk followed by a forward slash `*/`.
+So how do we put comments in our code? The answer is with double slashes `//`. In our code, everything past a pair of forward slashes will be considered a comment until the next line. If we want to write a comment that is going to span more a single line, we can instead use a forward slash followed by an asterisk `/*` to start a multi-line comment. To end a multi-line comment, we type an asterisk followed by a forward slash `*/`.
 
 You don't have to copy and paste this code, but reading it is a good idea.
 
