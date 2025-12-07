@@ -4,7 +4,7 @@
 
 As you might have guessed, Android Studio is the application we will be using to create and edit our programs. Don't worry about the finer details quite yet. Just know that it is very nice to use.
 
-### Creating A Project Now
+### Creating A Project
 
 If you don't have it open already, open up Android Studio. Hopefully only one of two things can happen. Ideally, you will be greeted by the following image. If not, then ask for help or something idk.
 
