@@ -1,18 +1,22 @@
 # Functions
 
-### So... Copying And Pasting Again...
+### What Are Functions And Why Do We Use Them?
 
 ...
 
-### Returns
+### Basic Functions
 
 ...
 
-### Arguments
+### Returning From A Function
 
 ...
 
-### Lambdas
+### Passing Arguments To A Function
+
+...
+
+### Lambda Functions
 
 ...
 

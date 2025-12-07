@@ -1,6 +1,22 @@
 # Null Values
 
-### ...
+### What Are Null Values And Why Do We Use Them?
+
+...
+
+### Nullable Data Types
+
+...
+
+### Checking Whether A Variable Is Null Or Not
+
+...
+
+### Checking What Type A Variable Is
+
+...
+
+### How To Change The Type Of A Variable
 
 ...
 

@@ -47,7 +47,7 @@ Lastly, one other thing you might notice is that 10 / 3 is 3 while it should be 
 
 The main takeaway is that Kotlin can do math. Feel free to change the numbers and the operators to get a feel for how this works.
 
-### But Why?
+### Why Use The `println` Function?
 
 Simply put, we use the `println` function to test our code. When our code starts to get complicated and messy (it will), we may not know the value of certain things. This is where we can use the `println` function to see what that value is.
 

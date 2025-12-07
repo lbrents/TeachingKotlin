@@ -1,18 +1,10 @@
 # Conditionals
 
-### Booleans
+### Boolean Logic
 
 ...
 
-### And / Or
-
-...
-
-### If This, Do That
-
-...
-
-### If This, Do That, Else Do This
+### If Statements
 
 ...
 

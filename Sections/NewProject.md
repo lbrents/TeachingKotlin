@@ -4,7 +4,7 @@
 
 As you might have guessed, Android Studio is the application we will be using to create and edit our programs. Don't worry about the finer details quite yet. Just know that it is very nice to use.
 
-### Ok Actually Creating A Project Now
+### Creating A Project Now
 
 If you don't have it open already, open up Android Studio. Hopefully only one of two things can happen. Ideally, you will be greeted by the following image. If not, then ask for help or something idk.
 
@@ -20,7 +20,7 @@ From here, follow these steps.
 
 Once that is done being created (it takes a while), you will enter the editor where all the magic happens with a clean project.
 
-### Our Entry Point
+### The Program Starting Point
 
 Before we actually start learning how to code, we need to create a file to serve as the starting point for our program.
 

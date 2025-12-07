@@ -1,18 +1,18 @@
 # Looping
 
-### Copying And Pasting 10,000 Times
+### Why Do We Use Loops?
 
 ...
 
-### If True, Please Repeat (While)
+### While Loops
 
 ...
 
-### Doing Something For Each Item In Array
+### For Loops
 
 ...
 
-### Iterating Over A Range
+### Iterating Over A Range Of Numbers
 
 ...
 
