@@ -81,9 +81,15 @@ var yourInput: Int = readln().toInt()
 ...
 ```
 
+If everything works properly, then you should have a program that asks the user for a number, and outputs that number multiplied by 10.
+
 ### Arrays
 
-...
+just one number? boring!
+can only be one type
+editing requires mutable array
+how to edit arrays
+common array operations
 
 <p align="right">
     <a href='Conditionals.md'>Conditionals</a>
