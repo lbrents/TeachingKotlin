@@ -10,7 +10,7 @@ Here is the quick rundown of what this is about: Kotlin is the name of the langu
 
 And lastly...
 
-Coding for a mobile device can be difficult at times, but is also very rewarding. The more familiar you get with this style of programming (hopefully), the easier any other style of programming should be. If you need any help, please do not hesitate to ask because just as you are learning to program, I am also learning how to ~~poorly~~ teach.
+Coding for a mobile device like a phone or a tablet can be difficult at times, but is also very rewarding. The more familiar you get with this style of programming (hopefully), the easier any other style of programming should be. If you need any help, please do not hesitate to ask because just as you are learning to program, I am also learning how to ~~poorly~~ teach.
 
 ### Table Of Contents
 
