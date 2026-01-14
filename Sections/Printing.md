@@ -67,7 +67,7 @@ You don't have to copy and paste this code, but reading it is a good idea.
 
 // This is a single line comment.
 
-println(10 / 3) // This will always be 3 and NOT 3.333 repeating.
+println(3.14 * 2) // This is going to be 2pi.
 ```
 
 ... And now, on to Variables.

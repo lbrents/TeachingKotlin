@@ -15,7 +15,6 @@ Coding for a mobile device like a phone or a tablet can be difficult at times, b
 ### Table Of Contents
 
 - Basics
-    - [Creating A New Project](Sections/NewProject.md)
     - [Printing](Sections/Printing.md)
     - [Variables](Sections/Variables.md)
     - [Conditionals](Sections/Conditionals.md)
@@ -24,6 +23,7 @@ Coding for a mobile device like a phone or a tablet can be difficult at times, b
     - [Functions](Sections/Functions.md)
     - [Null Values](Sections/Nulls.md)
 - Mobile Programming
+    - [Creating A New Project](Sections/NewProject.md)
     - [Composables](Sections/Composables.md)
     - [State](Sections/State.md)
 - Extra (WIP)

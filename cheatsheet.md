@@ -229,17 +229,4 @@ myInt = myInt + 10 // This is an error because you cannot add 10 to a null value
 val notNullableInt: Int = myInt ?: -1 // -1 if myInt is null
 ```
 
-## Composables
-
-The following link contains a list of commonly used ui components that we can make.
-https://m3.material.io/components
-
-Each component is a function that is called wherever you want to display it.
-
-Components are placed inside layouts.
-
-## State
-
-Ui state is stored in mutableStateOf variables.
-
 
