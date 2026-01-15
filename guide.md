@@ -161,13 +161,114 @@ val serialNumber = "O-01-04(-W)"
 
 # Boolean Logic
 
-Think back to math, basic arithmetic is stuff like adding, subtracting, multiplying and dividing. These are calculations that can involve either integers and / or doubles. But let me ask a question that you might not care about... What other types of calculations can we do with the other data types?
+Think back to math, basic arithmetic is stuff like adding, subtracting, multiplying and dividing. These are operations that involve calculations using integers or doubles. But let me ask a question that you might not care about... What other types of calculations can we do with the other data types?
 
-With that preface out of the way
+With that preface out of the way, let's introduce the type of calculations we can do with the boolean data type.
+
+Boolean values can only be either on or off, one or zero, true or false, and so on... We can't really do anything cool with operations like addition or subtraction, so instead we have a set of different calculations we can do called boolean logic. These are helpful for when we have multiple different boolean values and we want to do certain things when they are in certain states together. That might have been worded poorly, so let's get into the code.
+
+``` kotlin
+// Some lights in a room: true = on, false = off 
+var lights: Boolean = false
+
+// The the two switches in the room
+var switchA: Boolean = false
+var switchB: Boolean = false
+```
+
+Here we have 3 variables, two switches and one light. Let's try a couple different situation to show what boolean logic is and how to use it.
+
+If we want to turn on the light when both switches are on, we use the `&&` AND operator.
+If we want to turn on the light when either switch is on, we use the `||` OR operator.
+
+| Operator | A | B | Result |
+| -------- | - | - | ------ |
+| AND (&&) | F | F | F      |
+| AND (&&) | F | T | F      |
+| AND (&&) | T | F | F      |
+| AND (&&) | T | T | T      |
+| OR  (\|\|) | F | F | F      |
+| OR  (\|\|) | F | T | T      |
+| OR  (\|\|) | T | F | T      |
+| OR  (\|\|) | T | T | T      |
+
+And if we want to reverse the state of a switch, we can use the `!` NOT operator.
+
+| Operator | A | Result |
+| -------- | - | ------ |
+| NOT (!)  | F | T      |
+| NOT (!)  | T | F      |
+
+Finally, let's look at this in code...
+
+``` kotlin
+// Turn on the light if switchA AND switchB are on
+switchA = true
+switchB = false
+lights = switchA && switchB // true && false == false
+println(lights)
+
+switchA = true
+switchB = true
+lights = switchA && switchB // true && true == true
+println(lights)
+
+// Turn on the light if switchA OR switchB is on
+switchA = false
+switchB = false
+lights = switchA || switchB // false || false == false
+println(lights)
+
+switchA = true
+switchB = false
+lights = switchA || switchB // true || false == true
+println(lights)
+
+// Turn on the light if switchA is NOT on
+switchA = true
+lights = !switchA // !true == false
+println(lights)
+
+switchA = false
+lights = !switchA // !false == true
+println(lights)
+```
+
+And that's the gist of performing calculations with booleans. There is still a lot more depth to boolean logic, but for now this is enough to do some pretty cool stuff later on down the line.
+
+### TODO: Put boolean logic exercise
 
 # Conditionals
 
-...
+If you have some programming experience, if statements are what are known as conditionals. Put simply: If something is true, do something. It is called a conditional because it requires a condition to be true in order to do something.
+
+In Kotlin, the most basic form of a conditional is what is called an if statement. The following code is a basic template and example.
+
+``` kotlin
+// If statement template
+// if ( [some boolean variable or expression] ) { [your code here] }
+
+// If the light is on, print to the console
+var lights: Boolean = true
+if (lights) {
+    println("The lights are on!")
+}
+```
+
+To add on to this new concept, what if we want to do something if a condition is true and do something else if the condition is false?
+
+Let me introduce the if-else statement.
+
+``` kotlin
+var lights: Boolean = false
+if (lights) {
+    println("This should never run!")
+} else {
+    println("The lights are NOT on!")
+}
+```
+
+Hopefully that makes sense so far, but let's add on to this concept one last time. What if we want to chain a whole bunch of conditionals together? Let me finally introduce the else-if part of an if statement.
 
 # Loops
 
@@ -205,14 +306,11 @@ With that preface out of the way
 
 ...
 
+# Navigation
 
+...
 
+# Databases
 
-
-
-
-
-
-
-
+...
 
