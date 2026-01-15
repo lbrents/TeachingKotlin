@@ -152,7 +152,7 @@ And lastly, what if there is a number or value that we want to remember, but we 
 ``` kotlin
 // Example of creating a constant variable...
 val pi: Double = 3.1415
-val name: String = "Kond Qiu"
+val name: String = "Kong Qiu"
 val serialNumber = "O-01-04(-W)"
 
 // If we uncomment this, we get an error
@@ -234,9 +234,20 @@ lights = !switchA // !false == true
 println(lights)
 ```
 
-And that's the gist of performing calculations with booleans. There is still a lot more depth to boolean logic, but for now this is enough to do some pretty cool stuff later on down the line.
+And that's the gist of performing calculations with booleans. There is still a lot more depth to boolean logic, but for now this is enough to do some pretty cool stuff.
 
-### TODO: Put boolean logic exercise
+Lastly, what operations are there for the other data type that result in booleans?
+
+Hopefully this part is fairly intuitive. If not, I promise to reiterate on this later.
+
+| Operator | Description | Example |
+| -------- | ----------- | ------- |
+| == | Checks if two numbers (or any datatype) are equal to each other. | 10 == 10 is True |
+| != | Checks if two numbers (or any datatype) are NOT equal to each other. | 10 != 10 is False |      
+| > | Checks if the first number is greater than the second. | 10 > 5 is True |
+| < | Checks if the first number is lesser than the second. | 10 < 5 is False |
+| <= | Checks if greater than OR equal to. | 10 >= 10 is True, 10 >= 15 is False |
+| >= | Checks if lesser than OR equal to. | 10 <= 10 is True, 10 <= 15 is True |
 
 # Conditionals
 
@@ -248,8 +259,9 @@ In Kotlin, the most basic form of a conditional is what is called an if statemen
 // If statement template
 // if ( [some boolean variable or expression] ) { [your code here] }
 
-// If the light is on, print to the console
 var lights: Boolean = true
+
+// If the light is on, print to the console
 if (lights) {
     println("The lights are on!")
 }
@@ -261,6 +273,8 @@ Let me introduce the if-else statement.
 
 ``` kotlin
 var lights: Boolean = false
+
+// If lights are on, do something, otherwise do something else
 if (lights) {
     println("This should never run!")
 } else {
@@ -270,9 +284,49 @@ if (lights) {
 
 Hopefully that makes sense so far, but let's add on to this concept one last time. What if we want to chain a whole bunch of conditionals together? Let me finally introduce the else-if part of an if statement.
 
+``` kotlin
+var myNumber: Int = 10
+
+// Checking if myNumber is less than, equal to, or greater than 5
+if (myNumber == 5) {
+    println("My number is 5")
+} else if (myNumber < 5) {
+    println("My number is less than 5")
+} else if (myNumber > 5) {
+    println("My number is greater than 5")
+} else {
+    println("Uh oh... something went wrong!")
+}
+```
+
+And with that whirlwind tour of conditionals, we can now check the value of variables and do whatever we want based on that value.
+
 # Loops
 
-...
+Alright, so let me ask this question now... What if we wanted to do something very repetitive, like loop the same code over and over until a condition is met? To do something like that, we can use what is called a `while` loop. Let's look at an example to get an idea of what I am talking about.
+
+``` kotlin
+var myNumber: Int = 0
+
+// Let's loop until my number is 100 or something
+// This checks if myNumber is less than 100,
+// and if it is then the loop continues.
+// If at any point, this condition is false, then
+// the loop stops.
+while (myNumber < 100) {
+    // Here is the code that gets repeated for every loop
+    // I am going to increment the number so eventually it will be greater than 100
+    myNumber = myNumber + 1
+    // Let's also print the value of myNumber to see this in action
+    println(myNumber)
+}
+
+println("Done!")
+```
+
+Copy this code into your main function and then run it to see the loop in action.
+
+
 
 # Functions
 
