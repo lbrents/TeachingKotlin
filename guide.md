@@ -299,6 +299,8 @@ if (myNumber == 5) {
 }
 ```
 
+One thing to note is that it is totally possible for multiple conditions to be true. But when the first condition to be true is reached, the code for that conditional is run and then the whole statement is exited.
+
 And with that whirlwind tour of conditionals, we can now check the value of variables and do whatever we want based on that value.
 
 # Loops
