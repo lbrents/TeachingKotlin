@@ -1,5 +1,3 @@
-OUT OF DATE: NEEDS TO BE UPDATED FOR A COMPOSE PROJECT BECAUSE ANDROID STUDIO SUCKS AND WONT DO VANILLA KOTLIN CODE ANYMORE
-
 # Creating A New Project
 
 For programming the robot we use a text editor called Visual Studio Code, but for programming the scouting tablets, we use Android Studio. The short answer for why we do this is because Android Studio features all of the tools we need for programming the scouting tablets that Visual Studio Code does not have.
