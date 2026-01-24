@@ -73,13 +73,24 @@ var calculation: (Double, Boolean) -> Double { number, state ->
 
 ``` kotlin
 // Creating a function that takes a lambda...
-fun customCalculation(length: Int, calc: (Double, Boolen) -> Double) {
+fun customCalculation(length: Int, calc: (Int, Int) -> Double) {
     for (i in 0..length) {
         // Let's print the result of our lambda here
-        result = calc()
+        result = calc(i, length)
+        println(result)
     }
 }
 ```
 
+And here is a snippet of calling our `customCalculation` function.
 
+``` kotlin
+// Calling our function and giving it a custom lambda function as an argument.
+// This will print a bunch of stuff, hopefully
+customCalculation(length = 7, calc = { number, length ->
+    (number * length) / 2
+})
+```
+
+That's probably the worst part over with, so if that somehow makes sense then you're doing great! If not, that also great! Introducing lambda functions kinda sucks!
 
