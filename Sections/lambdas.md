@@ -58,20 +58,6 @@ So far, those are the basics of lambda functions, but what was the point of all 
 Because lambda functions have a data type, we can create functions that take functions as arguments. This actually let's us do a lot of cool stuff, but for now let's just look at how we can do this.
 
 ``` kotlin
-// Creating a lambda for some calculation...
-var calculation: (Double, Boolean) -> Double { number, state ->
-    var result: Double = number
-    if (state) {
-        result = number * 2
-    } else {
-        result = number / 2
-    }
-    // Return result here
-    result
-}
-```
-
-``` kotlin
 // Creating a function that takes a lambda...
 fun customCalculation(length: Int, calc: (Int, Int) -> Double) {
     for (i in 0..length) {
